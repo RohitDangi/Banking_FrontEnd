@@ -1,0 +1,55 @@
+//
+// Custom Variables
+//
+// Here you can add your own variables overrides
+//
+// The file is included before any other variable file,
+// so you can override them because they all use !default
+// --------------------------------------------------
+
+// For example, changing the primary color
+// $brand-primary: #3b5998;
+
+.add-btn-css{
+    float: right;
+}
+.login-bg{
+    background-image: url("../../media/photos/bg_hero_landing.jpg") !important;
+    // background-image: url('./assets/media/photos/photo34@2x.jpg);
+}
+.bill-btn {
+    height: 30px;
+    border-radius: 3px !important;
+    margin-left: 10px !important;
+    margin-top: 39px;
+}
+
+.user-chats {
+    max-height: 250px;
+    min-height: 250px;
+    overflow: auto;
+    box-shadow: 0px 6px 10px 0px #dcdcdc;
+    border: 1px solid #3f92ca8c;
+
+}
+.uppr-row{
+    padding-left: 22px;
+    justify-content: space-between;
+}
+.usr-target label{
+    font-size: 16px;
+    font-weight: 500;
+    color: gray;
+    padding-bottom: 10px;
+}
+.chat-content {
+    padding-top: 10px;
+    border-bottom: 1px solid #e8e1e1;
+    padding-bottom: 10px;
+}
+.task-status-upper {
+    text-transform: uppercase;
+}
+.w-49 {
+    width: 49% !important;
+}
